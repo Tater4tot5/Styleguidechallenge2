@@ -1,0 +1,205 @@
+header {
+  margin: 0px; }
+
+.firstdiv {
+  position: relative;
+  height: 300px;
+  background: url(file:///Users/tatejanek/Desktop/TIY/TIY/week-08/day-01/styleguidechallenge2/images/fomobg.png) repeat; }
+
+.logonav {
+  float: left;
+  background: none;
+  height: 100px;
+  padding: 20px 20px; }
+
+button {
+  opacity: 1;
+  background-color: #f5f5f5;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  font-weight: 400;
+  padding: 10px;
+  color: #0073bb;
+  margin-left: 10px; }
+
+li {
+  display: inline-block; }
+
+a {
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  color: #333333;
+  display: inline-block;
+  line-height: 1.875rem, 30px;
+  font-size: .8125rem;
+  font-weight: 400; }
+
+.nav {
+  margin: 10px;
+  list-style: none;
+  padding: 0px;
+  float: right; }
+
+.nav li :hover {
+  background-color: #f5f5f5;
+  border-color: #0073bb; }
+
+.dropdown {
+  position: relative;
+  margin: 0px; }
+
+.dropnav {
+  background: #fff;
+  position: absolute;
+  display: none; }
+
+.dropnav li {
+  margin: 0px;
+  padding: 10px; }
+
+.dropdown:hover .dropnav {
+  display: block;
+  background-color: #fff;
+  color: #54698d; }
+
+.description {
+  clear: both;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  clear: both;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Helvetica; }
+
+.navheader {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase; }
+
+.description p {
+  font-family: Helvetica, sans-serif;
+  margin: 20px;
+  font-size: 1rem;
+  color: #666666;
+  line-height: 1.6em;
+  text-transform: uppercase; }
+
+.ourpledgecontainer {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  padding: 5% 10%; }
+
+.ourpledge H1 {
+  margin: 0px 0px 20px;
+  color: #d32323;
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.57rem; }
+
+.ourpledge p {
+  color: #666666;
+  line-height: 1.6em;
+  font-size: .875rem;
+  font-family: Helvetica, sans-serif; }
+
+hr {
+  display: block;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  -webkit-margin-start: auto;
+  border-style: inset;
+  border-width: 1px; }
+
+.sgscontainer {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  padding: 10% 15%;
+  background-color: #e6e6e6; }
+
+article img {
+  background: #f5f5f5;
+  height: 50px;
+  padding: 10px;
+  border-radius: 30px; }
+
+article img:hover {
+  background-color: #0073bb; }
+
+.Gsg H1 {
+  margin: 0px 0px 20px;
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 1.57rem;
+  font-family: Helvetica, sans-serif; }
+
+.Gsg p {
+  color: #666666;
+  line-height: 1.6em;
+  font-size: .875rem;
+  font-family: Helvetica, sans-serif; }
+
+article {
+  width: 20.6%;
+  display: inline-block;
+  background-color: white;
+  vertical-align: top;
+  margin: 30px 1%;
+  padding: 1%;
+  padding-top: 30px;
+  font-family: Helvetica, arial, sans-serif; }
+
+article H2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #0073bb;
+  font-family: Helvetica; }
+
+.footer {
+  display: block;
+  border-width: 1px;
+  margin: 0px; }
+
+.footerdiv {
+  background-color: #e6e6e6;
+  margin: 0px; }
+
+.footerdiv ul {
+  font-family: Helvetica, sans-serif;
+  display: block;
+  text-align: center;
+  margin: 0px; }
+
+.footerdiv li {
+  display: inline-block;
+  padding: 20px 60px;
+  margin: 0px; }
+
+@media (min-width: 400px) and (max-width: 760px) {
+  .description {
+    display: block;
+    clear: both;
+    position: absolute;
+    top: 55%;
+    left: 50%; }
+
+  .navheader {
+    margin: 15px;
+    font-size: 1.75rem;
+    text-transform: uppercase; }
+
+  article {
+    width: 100%;
+    display: block;
+    background-color: white;
+    vertical-align: top;
+    margin: 20px 1%;
+    padding: 1%;
+    padding-top: 30px; } }
+
+/*# sourceMappingURL=main.css.map */
